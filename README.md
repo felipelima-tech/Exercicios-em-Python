@@ -40,7 +40,7 @@ Análise da nota final de um aluno, considerando uma atividade extra, e definiç
 
 🛠️ Tecnologias utilizadas
 🐍 Python
-🎓 Objetivo
+🎓 Objetivo 
 
 Este repositório representa minha evolução prática em programação e faz parte da construção da minha base em Python. A proposta é documentar minha jornada de aprendizado por meio de exercícios progressivos, reforçando conceitos fundamentais que serão aplicados em projetos mais avançados no futuro.
 
