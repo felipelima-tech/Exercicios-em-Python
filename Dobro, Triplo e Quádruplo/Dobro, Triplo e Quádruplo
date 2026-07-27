@@ -1,0 +1,9 @@
+número = int(input(f'Digite um número:'))
+
+n2 = (número * 2)
+n3 = (número * 3)
+n4 = (número * 4)
+
+print(f'O dobro {n2}')
+print(f'O triplo {n3}')
+print(f'O quadruplo {n4}')
