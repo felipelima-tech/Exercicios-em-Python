@@ -1,0 +1,7 @@
+Largura = float(input('Largura:'))
+
+Altura = float(input('Altura:'))
+
+area_do_retangulo = Largura * Altura
+
+print(f'Área do Retângulo: {area_do_retangulo}')
