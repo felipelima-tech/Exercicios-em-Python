@@ -1,0 +1,5 @@
+distância = float(input('Distância:'))
+
+print(f'Centímetros: {distância * 100}')
+print(f'Milímetros: {distância * 1000}')
+print(f'Quilometros: {distância / 1000}')
