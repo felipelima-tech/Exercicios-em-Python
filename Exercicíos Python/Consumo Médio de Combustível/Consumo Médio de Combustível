@@ -1,0 +1,10 @@
+quilômetros = float(input('Quilômetros percorridos:'))
+
+litros = float(input('Litros de combustível gastos'))
+
+média = quilômetros / litros
+
+preco = 5
+
+print(f'O consumo médio é de: {média} Km/L')
+print(f'Valor gasto R$ {litros * preco}')
