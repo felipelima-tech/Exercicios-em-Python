@@ -1,0 +1,8 @@
+temperatura = int(input('Temperatura:'))
+
+celsius = temperatura
+
+fahrenheit = (celsius * 9/5) + 32
+
+print(f'Graus Celsius {celsius}')
+print(f'Graus Fahrenheit {fahrenheit}')
