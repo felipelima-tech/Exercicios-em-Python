@@ -1,0 +1,15 @@
+nome_do_funcionario = (input('Nome do funcionário:'))
+
+qtd_horas_trabalhadas = float(input('Quantidade de horas trabalhadas:'))
+
+valor_recebido_por_hora = float(input('valor recebido por hora:'))
+
+valor_por_hora = valor_recebido_por_hora * qtd_horas_trabalhadas
+
+print(f'Nome do funcionário: {nome_do_funcionario}')
+
+print(f'Horas trabalhadas: {qtd_horas_trabalhadas}')
+
+print(f'Valor por hora: {valor_recebido_por_hora}')
+
+print(f'Salário total: {valor_por_hora}')
