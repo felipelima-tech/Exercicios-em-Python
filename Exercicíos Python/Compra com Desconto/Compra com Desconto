@@ -1,0 +1,23 @@
+nome_do_produto = input('Produto:')
+
+preco_do_produto_por_quilo = float(input('Preço do produto: '))
+
+Qtd_comprada = int(input('Quantidade comprada:'))
+
+preco = preco_do_produto_por_quilo * Qtd_comprada
+
+desconto = preco * 0.25
+
+valor_final = preco - desconto
+
+print(f'Produto {nome_do_produto}')
+
+print(f'Preço do produto R$ {preco_do_produto_por_quilo}')
+
+print(f'Quantidade {Qtd_comprada}')
+
+print(f'Total da compra R$ {preco}')
+
+print(f'Desconto R$ {desconto}')
+
+print(f'Valor final R$ {valor_final}')
