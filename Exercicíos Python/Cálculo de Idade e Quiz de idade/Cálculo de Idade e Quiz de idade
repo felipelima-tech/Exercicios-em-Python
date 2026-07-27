@@ -1,0 +1,20 @@
+nome_da_pessoa = input('Nome:')
+
+ano_nasc = int(input('Ano de Nascimento:'))
+
+ano_atual = int(input('Ano que estamos:'))
+
+ano_que_deseja = int(input('Ano que acha que vai ter 50: '))
+
+idade_atual = ano_atual - ano_nasc
+
+ano_dos_50 = 50
+
+print(f'Nome: {nome_da_pessoa}')
+
+print(f'Idade atual {idade_atual}')
+
+if int(ano_que_deseja - ano_nasc) == 50:
+    print('acertou o ano')
+else:
+    print('errou o ano')
