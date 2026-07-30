@@ -1,100 +1,106 @@
-# # 🐍 Exercícios de Prática em Python
+# # 🐍 Exercícios em Python
 
-Este repositório reúne uma coleção de exercícios desenvolvidos em **Python** como parte dos meus estudos em lógica de programação e desenvolvimento da base na linguagem.
+Este repositório reúne minha jornada de aprendizado em Python, contendo exercícios práticos desenvolvidos para consolidar os fundamentos da programação e fortalecer minha lógica de resolução de problemas.
 
-🎯 O objetivo deste repositório é praticar conceitos fundamentais da programação através de pequenos desafios, explorando desde operações matemáticas simples até a criação de pequenas soluções utilizando estruturas condicionais, manipulação de listas e módulos nativos do Python.
+Os projetos presentes neste repositório foram desenvolvidos durante meus estudos, evoluindo gradualmente desde exercícios básicos até pequenas aplicações que simulam situações do mundo real.
 
-Durante o desenvolvimento, foram aplicados conceitos essenciais como variáveis, entrada e saída de dados, conversão de tipos, operadores matemáticos, estruturas de decisão (`if`, `elif` e `else`), listas e utilização de funções presentes na biblioteca padrão da linguagem.
+O objetivo é construir uma base sólida na linguagem antes de avançar para projetos mais complexos envolvendo análise de dados, APIs, bancos de dados e outras tecnologias do ecossistema Python.
 
-Cada exercício representa uma etapa da minha evolução prática, permitindo transformar problemas simples em algoritmos funcionais e desenvolver gradualmente o raciocínio lógico necessário para projetos mais complexos.
+🎯 Objetivos
 
----
+Este repositório tem como finalidade:
 
-# 📚 Exercícios desenvolvidos
+Desenvolver o raciocínio lógico.
+Praticar a resolução de problemas utilizando Python.
+Consolidar conceitos fundamentais da linguagem.
+Aprender boas práticas de organização de código.
+Criar uma evolução progressiva do aprendizado através de exercícios e pequenos sistemas.
+📚 Conceitos praticados
 
-## 🎲 Exercícios com módulo Random
+Durante os exercícios foram utilizados diversos recursos da linguagem, entre eles:
 
-Exercícios desenvolvidos para praticar a utilização do módulo `random`, explorando geração de valores aleatórios e manipulação de listas.
+Variáveis
+Entrada e saída de dados
+Conversão de tipos
+Operadores matemáticos
+Operadores relacionais
+Operadores lógicos
+Estruturas condicionais (if, elif, else)
+Laços de repetição
+Manipulação de Strings
+Listas
+Funções nativas
+Módulos da biblioteca padrão
+Cálculos matemáticos
+Validação de dados
+Simulação de regras de negócio
+📂 Organização do repositório
 
-### 🎯 Sorteio de Participantes
+Os exercícios estão organizados em pastas individuais, cada uma representando um desafio específico desenvolvido durante os estudos.
 
-Sistema de sorteio utilizando o método `random.choice()`, selecionando um participante aleatoriamente a partir de uma lista.
+Entre eles estão:
 
-### 📋 Organização Aleatória de Tarefas
+🧮 Exercícios Matemáticos
+Média Aritmética
+Conversão de Medidas
+Conversão de Temperatura
+Cateto e Hipotenusa
+Seno, Cosseno e Tangente
+Área de um Retângulo
+Consumo Médio de Combustível
+🎲 Exercícios utilizando o módulo Random
 
-Programa utilizando `random.shuffle()` para reorganizar uma lista de tarefas, simulando uma distribuição aleatória de atividades.
+Projetos desenvolvidos para praticar geração de valores aleatórios e manipulação de listas.
 
-### 🛒 Caixa Surpresa de Descontos
+Incluem:
 
-Sistema de desconto aleatório para uma loja, utilizando uma lista de possíveis descontos, cálculo do valor final e aplicação de regras condicionais.
+Sorteio de Funcionário
+Sorteio de Ordem em Lista
+Caixa Surpresa de Descontos
+Jogo da Adivinhação
 
-**Conceitos praticados:**
+Conceitos praticados:
 
-* Importação de módulos.
-* Manipulação de listas.
-* Uso de `random.choice()` e `random.shuffle()`.
-* Estruturas condicionais.
-* Aplicação de regras de negócio.
+random.choice()
+random.shuffle()
+Manipulação de listas
+Estruturas condicionais
+Regras de negócio
+💼 Simulações de Situações Reais
 
----
+Além dos exercícios tradicionais, o repositório também contém pequenos sistemas desenvolvidos para aproximar o aprendizado de cenários encontrados no mercado.
 
-# 🧩 Exercícios Básicos de Lógica de Programação
+Alguns exemplos:
 
-Conjunto de exercícios introdutórios desenvolvidos para fortalecer os fundamentos da programação utilizando Python.
+👨‍💼 Cadastro de Funcionário
+🛒 Compra com Desconto
+🚗 Custo da Viagem
+🚔 Radar Eletrônico
+🏨 Sistema de Reserva de Hotel
+🎓 Sistema de Análise de Notas
 
-### 🧮 Dobro, Triplo e Quádruplo
+Esses projetos unem diversos conceitos em uma única aplicação, exigindo maior organização do código e desenvolvimento da lógica de programação.
 
-Cálculo do dobro, triplo e quádruplo de um número informado pelo usuário.
+🛠 Tecnologias utilizadas
+Python
+Biblioteca random
+Biblioteca math
+Biblioteca time
+🚀 Evolução do aprendizado
 
-### 📚 Média Aritmética
+Este repositório acompanha minha evolução prática em Python.
 
-Cálculo da média entre duas notas informadas.
+Cada exercício representa um novo conceito aprendido, enquanto os projetos mais recentes combinam diversos conhecimentos para simular aplicações cada vez mais completas.
 
-### 📏 Conversão de Medidas
+A tendência é que este repositório continue crescendo conforme avanço nos estudos, incorporando novos conceitos como:
 
-Conversão de valores em metros para centímetros, milímetros e quilômetros.
+Funções
+Programação Orientada a Objetos (POO)
+Manipulação de arquivos
+Tratamento de exceções
+Bibliotecas para análise de dados
+APIs
+Banco de dados
+🎯 Objetivo Final
 
-### 📐 Cálculo da Área de um Retângulo
-
-Cálculo da área de um retângulo utilizando largura e altura.
-
-### 🚗 Consumo Médio de Combustível
-
-Cálculo do consumo médio de combustível e do valor gasto com abastecimento.
-
-### 👨‍💼 Cadastro de Funcionário
-
-Registro de informações de um funcionário, como nome, horas trabalhadas e valor recebido por hora.
-
-### 🛒 Compra com Desconto
-
-Cálculo do valor de uma compra com aplicação de desconto e exibição do valor final.
-
-### 🌡️ Conversão de Temperatura
-
-Conversão de temperatura de Celsius para Fahrenheit.
-
-### 🎂 Cálculo de Idade
-
-Cálculo da idade atual e verificação do ano em que a pessoa completa 50 anos.
-
-### 🎓 Situação do Aluno
-
-Análise da nota final de um aluno, considerando atividade extra e definindo sua situação acadêmica.
-
----
-
-# 🛠️ Tecnologias utilizadas
-
-* 🐍 Python
-
----
-
-# 🎓 Objetivo
-
-Este repositório representa minha evolução inicial na programação, documentando minha prática com Python através de exercícios progressivos.
-
-Através desses desafios, busco desenvolver uma base sólida em lógica de programação, compreender a construção de algoritmos e aprimorar minha capacidade de transformar problemas em soluções utilizando código.
-
-Esses exercícios são parte da minha jornada de aprendizado e preparação para desenvolver projetos cada vez mais completos na área de tecnologia. 🚀
-
+Meu objetivo é construir uma base sólida em Python para evoluir para projetos maiores envolvendo desenvolvimento de software, análise de dados e automação, aplicando cada novo conceito em projetos práticos que demonstrem minha evolução técnica.
