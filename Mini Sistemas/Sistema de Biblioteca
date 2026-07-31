@@ -1,0 +1,54 @@
+from time import sleep
+
+nome = str(input('Nome: '))
+
+idade = int(input('Idade: '))
+
+cidade = str(input('Cidade: '))
+
+profissao = str(input('Profissão: '))
+
+qtd_livros = int(input('Quantidade de livros emprestados: '))
+
+qtd_atraso = int(input('Quantidade de dias de atraso: '))
+
+if profissao.lower().strip() == 'aluno':
+    qtd_livros = 3
+    if qtd_livros > 3:
+        print('\033[0;31mVocê pode solicitar até 3 livros\033[m')
+elif profissao.lower().strip() == 'professor':
+    qtd_livros = 6
+    if qtd_livros > 6:
+        print('\033[0;31mVocê pode solicitar até 6 livros\033[m')
+elif profissao.lower().strip() == 'visitante':
+    qtd_livros = 2
+    if qtd_livros > 2:
+        print('\033[0;31mVocê pode solicitar até 2 livros \033[m')
+
+if qtd_atraso == 0:
+    situacao = ('\033[;32mUsuário regular.\033[m')
+elif qtd_atraso >= 1 and qtd_atraso <= 5:
+    situacao = ('\033[;32mAtraso leve.\033[m')
+elif qtd_atraso >= 6 and qtd_atraso <= 15:
+    situacao = ('\033[;33mAtraso moderado.\033[m')
+else:
+    situacao = ('\033[1;31mUsuário bloqueado para empréstimo de livro.\033[m')
+
+print('CARREGANDO...')
+sleep(2)
+
+print('=' * 30)
+print('    RELATÓRIO DO LEITOR')
+print('=' * 30)
+
+print(f'Nome: {nome}')
+print(f'Idade: {idade}')
+print(f'Profissão: {profissao}')
+print('')
+print(f'Livros emprestados: {qtd_livros}')
+print('')
+print(f'Dias de atraso: {qtd_atraso}')
+print('')
+print(f'Situação: {situacao}')
+print('')
+print('=' * 30)
