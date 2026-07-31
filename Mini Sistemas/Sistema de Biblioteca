@@ -13,15 +13,15 @@ qtd_livros = int(input('Quantidade de livros emprestados: '))
 qtd_atraso = int(input('Quantidade de dias de atraso: '))
 
 if profissao.lower().strip() == 'aluno':
-    qtd_livros = 3
+    limite = 3
     if qtd_livros > 3:
         print('\033[0;31mVocê pode solicitar até 3 livros\033[m')
 elif profissao.lower().strip() == 'professor':
-    qtd_livros = 6
+    limite = 6
     if qtd_livros > 6:
         print('\033[0;31mVocê pode solicitar até 6 livros\033[m')
 elif profissao.lower().strip() == 'visitante':
-    qtd_livros = 2
+    limite = 2
     if qtd_livros > 2:
         print('\033[0;31mVocê pode solicitar até 2 livros \033[m')
 
@@ -33,6 +33,10 @@ elif qtd_atraso >= 6 and qtd_atraso <= 15:
     situacao = ('\033[;33mAtraso moderado.\033[m')
 else:
     situacao = ('\033[1;31mUsuário bloqueado para empréstimo de livro.\033[m')
+
+restante = limite - qtd_livros
+
+excedeu = qtd_livros - limite
 
 print('CARREGANDO...')
 sleep(2)
@@ -47,8 +51,15 @@ print(f'Profissão: {profissao}')
 print('')
 print(f'Livros emprestados: {qtd_livros}')
 print('')
+print(f'Limite permitido: {limite}')
+if qtd_livros <= limite:
+    print(f'Disponível para retirar {restante} livros.')
+else:
+    print(f'Você pegou mais do que o permitido, devolva {excedeu} livro/s.')
+print('')
 print(f'Dias de atraso: {qtd_atraso}')
 print('')
 print(f'Situação: {situacao}')
 print('')
 print('=' * 30)
+
